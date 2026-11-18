@@ -1,0 +1,71 @@
+{
+  "n_incidents": 16,
+  "n_attacks": 6,
+  "backend": "cpp",
+  "modes": {
+    "base_vlm": {
+      "label": "Base VLM",
+      "PLVR": 0.375,
+      "diagnosis_f1": 0.0,
+      "faithfulness": 0.0,
+      "cause_recall": 0.0,
+      "p50_ms": 0.0047,
+      "p95_ms": 0.0064,
+      "p99_ms": 0.0153,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 10
+      }
+    },
+    "standard_rag": {
+      "label": "Standard RAG",
+      "PLVR": 0.375,
+      "diagnosis_f1": 0.0,
+      "faithfulness": 0.75,
+      "cause_recall": 1.0,
+      "p50_ms": 0.0837,
+      "p95_ms": 0.158,
+      "p99_ms": 0.2049,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 10
+      }
+    },
+    "graph_rag": {
+      "label": "GraphRAG",
+      "PLVR": 0.375,
+      "diagnosis_f1": 0.0,
+      "faithfulness": 0.75,
+      "cause_recall": 1.0,
+      "p50_ms": 0.1505,
+      "p95_ms": 0.293,
+      "p99_ms": 0.3604,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 10
+      }
+    },
+    "phys_rag": {
+      "label": "PhysRAG-V2X",
+      "PLVR": 0.0,
+      "diagnosis_f1": 1.0,
+      "faithfulness": 1.0,
+      "cause_recall": 1.0,
+      "p50_ms": 2.2572,
+      "p95_ms": 5.4051,
+      "p99_ms": 7.2913,
+      "detection": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10
+      }
+    }
+  }
+}

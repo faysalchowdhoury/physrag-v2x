@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# compiled C++ extension (build locally with `make build-cpp`)
+*.pyd
+*.so
+*.o
+*.obj
+
+# large raw data (committed fixture under data/ngsim_i80_sample.csv.gz is kept)
+/data/ngsim/
+/data/*.full.csv*
+
+# local experiment outputs are committed selectively
+results/figures/*.pdf
+results/figures/*.svg
